@@ -16,7 +16,7 @@ class M_Func extends CI_Model {
     	$config['section_modal']= $modal?$this->load->view('modal/'.$modal,$data,true) : '';
     	$config['section_js'] 	= $js?$this->load->view('js/'.$js,$data,true) : '';
 
-    	// $this->load->view('front/app',$config);
+    	$this->load->view('app/front',$config);
 
 	}
 
