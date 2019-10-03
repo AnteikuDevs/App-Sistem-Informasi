@@ -1,0 +1,41 @@
+
+[DATABASE]
+
+HOSTNAME = localhost
+
+USERNAME = root
+
+PASSWORD = 
+
+DATABASE = chats
+
+
+[CI_ENVIRONMENT]
+
+CI_ENVIRONMENT = development
+
+
+[CONFIG]
+
+APP_URL = auto
+
+COMPOSER_AUTOLOAD = FALSE
+
+ENCRYPTION_KEY = 
+
+
+[REST]
+
+rest_format = json
+
+rest_key_name = key
+
+[PUSHER]
+
+PUSHER_APP_ID		= 
+
+PUSHER_APP_KEY		= 
+
+PUSHER_APP_SECRET	= 
+
+PUSHER_APP_CLUSTER	= 
